@@ -3,10 +3,10 @@
 #include <I2Cdev.h>
 #include <MPU6050.h>
 
-Servo myServoX;
-Servo myServoY;
+Servo XServo;
+Servo YServo;
 
-MPU6050 myMPU;
+MPU6050 MPU1;
 
 int16_t Acc_rawX, Acc_rawY, Acc_rawZ; //Accel constants
 int16_t Gyr_rawX, Gyr_rawY, Gyr_rawZ; //Gyro constants
